@@ -1,0 +1,12 @@
+{
+  "name": "@functions-io-labs/math.multiply",
+  "version": "1.0.0",
+  "description": "multiply x * y",
+  "category": "test",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

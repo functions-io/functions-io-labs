@@ -1,0 +1,30 @@
+{
+  "name": "@functions-io-labs/math.sum.async",
+  "version": "2.0.0",
+  "description": "sum x + y",
+  "category": "test",
+  "main": "lib/index.js",
+  "interface":{
+    "input": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "description": "x"
+        },
+        "y": {
+          "type": "number",
+          "description": "y"
+        }
+      }
+    },
+    "output": {
+      "type": "number"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
