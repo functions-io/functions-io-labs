@@ -1,2 +1,2 @@
-* multiply x * y
+* sum x + y
 * input and output schema declared
