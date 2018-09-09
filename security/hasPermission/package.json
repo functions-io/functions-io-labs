@@ -1,0 +1,13 @@
+{
+  "name": "@functions-io-labs/security.haspermission",
+  "version": "1.0.0",
+  "description": "has permission",
+  "category": "test",
+  "public": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
