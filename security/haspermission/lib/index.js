@@ -18,7 +18,7 @@ module.output = {
 module.exports = function(message){
     return new Promise(function(resolve, reject){
         try {
-            if (message.roles.indexOf("admin") === 1){
+            if (message.roles.indexOf("admin") >= 0){
                 resolve(1);
             }
             else{
