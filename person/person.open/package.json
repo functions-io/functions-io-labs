@@ -1,9 +1,9 @@
 {
-  "name": "person.open",
+  "name": "@functions-io-labs/person.open",
   "version": "1.0.0",
   "description": "open person",
   "category": "test",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

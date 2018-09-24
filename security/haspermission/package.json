@@ -1,6 +1,6 @@
 {
   "name": "@functions-io-labs/security.haspermission",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "has permission",
   "category": "test",
   "public": true,

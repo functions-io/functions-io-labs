@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "roles": {
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "permission": {"type": "string", "maximum": 120}
+    }
+}

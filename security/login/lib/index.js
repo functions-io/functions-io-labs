@@ -1,26 +1,5 @@
 "use strict";
 
-module.input = {
-    type: "object",
-    properties: {
-        username: {type: "string", maximum: 30},
-        password: {type: "string", maximum: 30}
-    }
-};
-
-module.output = {
-    type: "object",
-    properties: {
-        id: {type: "string"},
-        name: {type: "string"},
-        email: {type: "string"},
-        roles: {
-            type: "array",
-            items: {type: "string"}
-        }
-    }
-};
-
 module.exports = function(message){
     return new Promise(function(resolve, reject){
         try {
