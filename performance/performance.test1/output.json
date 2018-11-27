@@ -1,0 +1,8 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "timeInit": {"type": "number"},
+        "delay": {"type": "number"}
+    }
+}
