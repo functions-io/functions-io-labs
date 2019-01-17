@@ -1,6 +1,6 @@
 {
-  "name": "@functions-io-labs/performance.test1",
-  "version": "1.0.1",
+  "name": "@functions-io-labs-performance/test11",
+  "version": "1.0.0",
   "description": "test",
   "category": "test",
   "main": "lib/index.js",
