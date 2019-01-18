@@ -1,12 +1,9 @@
 {
-  "name": "@functions-io-labs-performance/test11",
-  "version": "1.0.0",
-  "description": "test",
-  "category": "test",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
-}
+    "name": "@functions-io-labs-performance/test1007",
+    "version": "1.0.0",
+    "description": "test",
+    "category": "test",
+    "main": "lib/index.js",
+    "author": "",
+    "license": "ISC"
+  }
