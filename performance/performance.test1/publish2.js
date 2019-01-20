@@ -15,7 +15,7 @@ function publish(index){
         pkgText.push('  }');
         fs.writeFileSync("package.json", pkgText.join("\n"));
 
-        var child = exec("npm publish --access public", function (error, stdout, stderr) {
+        var child = exec("npm publish --access public --registry http://10.0.0.137:8080", function (error, stdout, stderr) {
             console.log('stdout: ' + stdout);
             console.log('stderr: ' + stderr);
             if (error !== null) {
@@ -30,7 +30,7 @@ function publish(index){
 }
 
 (async function test(){
-    await publish("27a");
+    await publish("27");
     /*
     for (var i = 505; i++; i < 1000){
         await publish(i);
