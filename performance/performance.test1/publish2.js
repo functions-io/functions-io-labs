@@ -30,11 +30,7 @@ function publish(index){
 }
 
 (async function test(){
-    await publish("27");
-    /*
-    for (var i = 505; i++; i < 1000){
+    for (var i = 1000; i++; i < 50000){
         await publish(i);
     }
-    */
 })();
-
